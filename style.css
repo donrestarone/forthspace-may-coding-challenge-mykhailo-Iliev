@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+/* ---------------header---------------- */
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.color1 {
+    background-color: #D8B429;
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+}
+
+.color2 {
+    background-color: #E2B29A;
+    height: 100vh;
+    width: 20%;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.color3 {
+    background-color: #F8D8C4;
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+header .logo {
+    width: 150px;
+    height: 100%;
+    margin-top: 2%;
+}
+
+header .navigation {
+    padding: 5% 2%;
+    min-width: 300px;
+}
+
+header a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------main section --------------*/
+
+.main {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+
+.welcomeText {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.mainWelcomeText {
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    padding-left: 10%;
+}
+
+.mainWelcomeSecondary {
+    position: absolute;
+    top: 40%;
+    padding-left: 10%;
+}
+
+.mainWelcomeSecondary {
+    width: 5vw;
+    height: 5vw;
+}
+
+.noshucks {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    width: 150px;
+    height: 150px;
+}
+
+.bottle {
+    position: absolute;
+    top: 18%;
+    left: 40%;
+}
+
+.glass {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.work {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.shuck {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+
+/* ------section simple--------- */
+
+.simple {
+    width: 100%;
+    height: 120vh;
+    background-color: #F8D8C4;
+    position: relative;
+}
+
+.afterHeadingPicture {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 25%;
+    top: 25%;
+    display: inline-block;
+}
+
+.afterHeadingDescription {
+    position: absolute;
+    left: 50%;
+    /* width: 100%; */
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 10% 10%;
+}
+
+.afterHeadingDescription h2 {
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.afterHeadingDescription p {
+    font-size: 20;
+    line-height: 25px;
+}
+
+.afterHeadingSecond {
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 65vh;
+}
+
+.line1logo {
+    width: 70%;
+    height: 100%;
+    padding-left: 10%;
+}
+
+.line2 {
+    margin-left: 20%;
+}
+
+.lin2pi1 {
+    position: absolute;
+    left: 10%;
+    height: 100%;
+
+}
+
+.line2pi2 {
+
+}
